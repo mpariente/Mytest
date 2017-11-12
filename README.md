@@ -10,3 +10,5 @@
 
 * [Learn it here!](https://www.markdowntutorial.com/)
 Step by step with exercises
+
+* And [here](http://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf) is a Cheatsheet
