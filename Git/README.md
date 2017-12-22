@@ -31,5 +31,8 @@ Steps taken from [this tutorial](https://github.com/GarageGames/Torque2D/wiki/Cl
   * `git push remote_name branch_name` , here :  
    `git push origin new_branch`
 
-8. If you want to check the history of commits and changes on the online repo, you can use :  
+8. If you want to check the history of commits (which were pushed) and changes on the online repo, you can use :  
   * `gitk --all --date-order`
+
+9. To undo commits that were not pushed, you can you `git reset HEAD~1`  
+That will keep the changes you made but cancel the commit, you can make some changes and commit again. 
