@@ -30,3 +30,6 @@ Steps taken from [this tutorial](https://github.com/GarageGames/Torque2D/wiki/Cl
   * `git commit -m 'Message about the commit'`
   * `git push remote_name branch_name` , here :  
    `git push origin new_branch`
+
+8. If you want to check the history of commits and changes on the online repo, you can use :  
+  * `gitk --all --date-order`
