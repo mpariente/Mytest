@@ -35,4 +35,9 @@ Steps taken from [this tutorial](https://github.com/GarageGames/Torque2D/wiki/Cl
   * `gitk --all --date-order`
 
 9. To undo commits that were not pushed, you can you `git reset HEAD~1`  
-That will keep the changes you made but cancel the commit, you can make some changes and commit again. 
+That will keep the changes you made but cancel the commit, you can make some changes and commit again.
+
+10. To remove content from the online repo :  
+  * `git rm`
+  * `find . -name "*.pyc" -exec git rm -f {} \;` (here for .pyc)
+  * Don't forget to add this file to `.gitignore`
